@@ -1,50 +1,55 @@
 <!DOCTYPE html>
-<html lang="NL-nl">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/solar-system.png" type="image/x-icon">
-    <title>Projects</title>
+    <script defer src="java.js"></script>
+    <title>Projecten - Junior's Website</title>
+    <meta name="description" content="Bekijk de projecten van Junior Nahayo. Van webontwikkeling tot grafisch ontwerp, ontdek mijn werk en mijn vaardigheden.">
 </head>
 <body class="body-project">
     <nav>
-        <img class="logo" src="./assets/JRlogo.png">
+        <img class="logo" src="./assets/JRlogo.png" alt="Junior's logo">
         <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="skills.html">Skills</a></li>
-            <li class="active"><a href="project.html">Project</a></li>
+            <li class="active"><a href="project.html">Projecten</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <img class="burger" src="./assets/menu-burger.svg">
+        <img class="burger" src="./assets/menu-burger.svg" alt="menu icoon">
     </nav>
 
-    <h1 class="project-title">Project</h1>
+    <header>
+        <h1 class="project-title">Projecten</h1>
+    </header>
 
     <main class="main-project">
-
-        <header class="header1">
-            <img src="./assets/project1.png" class="project1" controls></img>
-            <br>
-            <h4 class="header-desc">project 1</h4>
-        </header>
-
-        <header class="header2">
-            <img src="./assets/project2.png" class="project2" alt="foto van een logo die ik hebt gemaakt in inkscape">
-            <br>
-            <h4 class="header-desc">project 2</h4>
-        </header>
-
-        <header class="header3">
-            <img src="./assets/project3.png" class="project3" alt="photo van een game die ik hebt gemaakt">
-            <br>
-            <h4 class="header-desc">project 3</h4>
-        </header>
-
+        <section class="project-item">
+            <a href="./sites/PROJECT-1" target="_blank">
+                <img src="./assets/project1.png" class="project1" alt="Screenshot van project 1">
+                <h4 class="header-desc">Project 1</h4>
+            </a>
+        </section>
+    
+        <section class="project-item">
+            <a href="./sites/PROJECT-2" target="_blank">
+                <img src="./assets/project2.png" class="project2" alt="Logo gemaakt in Inkscape">
+                <h4 class="header-desc">Project 2</h4>
+            </a>
+        </section>
+    
+        <section class="project-item">
+            <a href="./sites/PROJECT-3" target="_blank">
+                <img src="./assets/project3.png" class="project3" alt="Screenshot van een game die ik heb gemaakt">
+                <h4 class="header-desc">Project 3</h4>
+            </a>
+        </section>
     </main>
-
+    
     <footer class="footer-skills">
-        <p>Junior's webiste</p>
+        <p>© 2024 Junior's Website. Alle rechten voorbehouden.</p>
     </footer>
 </body>
 </html>
